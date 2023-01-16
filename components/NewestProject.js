@@ -6,9 +6,9 @@ const NewestProject = ({ title, image, link }) => {
     <a
       href={link}
       target="_blank"
-      className="w-80 bg-slate-100 p-6 mt-6 rounded-lg hover:bg-slate-300 transition-colors duration-1000"
+      className="w-80 shadow-sm p-6 rounded-lg hover:bg-slate-300 transition-colors duration-1000"
     >
-      <Image src={image} width="300" height="200" />
+      <Image src={image} width="300" height="200" alt="Projekt Screenshot" />
       <h3 className="mt-2 font-medium tracking-wider text-lg">{title}</h3>
     </a>
   );

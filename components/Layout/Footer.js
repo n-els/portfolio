@@ -4,7 +4,7 @@ import { BsGithub } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center gap-4 mb-4">
+    <footer className="flex justify-center gap-4 my-8">
       <a
         className="opacity-50 hover:opacity-100 transition-opacity duration-500"
         href="https://www.linkedin.com/in/nader-elsayed/"
