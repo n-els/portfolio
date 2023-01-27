@@ -12,8 +12,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section>
-        <div className="mt-14 sm:mt-12 flex flex-col-reverse items-center md:flex-row md:justify-between w-full mx-auto">
+      <section className="mt-12 sm:mt-24">
+        <div className="sm:mt-12 flex flex-col-reverse items-center md:flex-row md:justify-between w-full">
           <div>
             <p className="text-xl mt-12">Moin,</p>
             <h2 className="text-2xl font-medium sm:text-4xl  tracking-wider">
@@ -27,23 +27,23 @@ export default function Home() {
               Responsiveness <br />
               und Benutzerfreundlichkeit umzusetzen.
             </p>
+            <div className="block mt-8">
+              <a
+                href="mailto:nader.elsayed@aol.de"
+                className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors duration-300"
+              >
+                Lass' quatschen!
+              </a>
+            </div>
           </div>
           <div>
             <Image
               src="/images/potrait-bw.png"
-              width="200"
-              height="200"
+              width="250"
+              height="250"
               alt="Potraitfoto"
             />
           </div>
-        </div>
-        <div className="block mt-8">
-          <a
-            href="mailto:nader.elsayed@aol.de"
-            className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors duration-300"
-          >
-            Lass' quatschen!
-          </a>
         </div>
       </section>
     </>
