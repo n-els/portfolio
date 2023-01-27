@@ -12,16 +12,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className=" tracking-wide">
-        <div className="mt-4 sm:mt-12 mb-6 flex flex-col-reverse items-center md:flex-row md:justify-between w-full mx-auto">
+      <section>
+        <div className="mt-14 sm:mt-12 flex flex-col-reverse items-center md:flex-row md:justify-between w-full mx-auto">
           <div>
-            <h2 className=" text-4xl mt-4 tracking-wide">
-              Ich bin <span className="font-bold">Nader el Sayed</span>
+            <p className="text-xl mt-12">Moin,</p>
+            <h2 className="text-2xl font-medium sm:text-4xl  tracking-wider">
+              Ich bin <span className="font-extrabold">Nader el Sayed</span>
             </h2>
-
-            <h3 className=" text-2xl my-4 tracking-widest">
-              Webentwickler & Hobbyfotograf
-            </h3>
+            <p className="text-xl sm:text-2xl sm:my-2 sm:tracking-widest">
+              Webentwickler aus dem Norden
+            </p>
+            <p className="mt-6">
+              Ich liebe es Ideen für's Web unter Berücksichtigung der
+              Responsiveness <br />
+              und Benutzerfreundlichkeit umzusetzen.
+            </p>
           </div>
           <div>
             <Image
@@ -31,6 +36,14 @@ export default function Home() {
               alt="Potraitfoto"
             />
           </div>
+        </div>
+        <div className="block mt-8">
+          <a
+            href="mailto:nader.elsayed@aol.de"
+            className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors duration-300"
+          >
+            Lass' quatschen!
+          </a>
         </div>
       </section>
     </>
