@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="mt-12 sm:mt-24">
+      <section className="mt-12 mb-12 sm:mt-24">
         <div className="sm:mt-12 flex flex-col-reverse items-center md:flex-row md:justify-between w-full">
           <div>
             <p className="text-xl mt-12">Moin,</p>
