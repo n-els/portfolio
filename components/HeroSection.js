@@ -6,36 +6,36 @@ import Image from 'next/image';
 const HeroSection = () => {
   return (
     <section className="mt-12 sm:mt-24">
-      <div className="sm:mt-12 flex flex-col-reverse items-center md:flex-row md:justify-between w-full">
+      <div className="flex w-full flex-col-reverse items-center sm:mt-12 md:flex-row md:justify-between">
         <div>
-          <p className="text-xl mt-12">Moin,</p>
-          <h2 className="text-2xl font-medium sm:text-4xl  tracking-wider">
+          <p className="mt-12 text-xl">Moin,</p>
+          <h2 className="text-2xl font-medium tracking-wider  sm:text-4xl">
             Ich bin <span className="font-extrabold">Nader el Sayed</span>
           </h2>
-          <p className="text-xl sm:text-2xl sm:my-2 sm:tracking-widest">
+          <p className="text-xl sm:my-2 sm:text-2xl sm:tracking-widest">
             Webentwickler aus dem Norden
           </p>
           <p className="mt-6 max-w-sm">
             Ich liebe es Ideen für's Web unter Berücksichtigung der
             Responsiveness und Benutzerfreundlichkeit umzusetzen.
           </p>
-          <div className="flex mt-8 items-center gap-8">
+          <div className="mt-8 flex items-center gap-8">
             <a
               href="mailto:nader.elsayed@aol.de"
-              className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors duration-300"
+              className="border-2 border-black p-2 transition-colors duration-300 hover:bg-black hover:text-white"
             >
               Lass' quatschen!
             </a>
             <div className="flex gap-4">
               <a
-                className="opacity-100 hover:opacity-50 transition-opacity duration-500"
+                className="opacity-100 transition-opacity duration-500 hover:opacity-50"
                 href="https://www.linkedin.com/in/nader-elsayed/"
                 target="_blank"
               >
                 <FaLinkedinIn size="1.4rem" />
               </a>
               <a
-                className="opacity-100 hover:opacity-50 transition-opacity duration-500"
+                className="opacity-100 transition-opacity duration-500 hover:opacity-50"
                 href="http://github.com/n-els"
                 target="_blank"
               >
