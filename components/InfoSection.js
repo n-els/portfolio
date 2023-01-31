@@ -4,7 +4,7 @@ import TechStackSection from './TechStackSection';
 
 const InfoSection = () => {
   return (
-    <section className="flex flex-col min-w-full sm:flex-row sm:justify-between my-20">
+    <section className="my-20 flex min-w-full flex-col sm:flex-row sm:justify-between">
       <NewestProjectSection />
       <TechStackSection />
     </section>

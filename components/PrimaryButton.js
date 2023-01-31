@@ -6,7 +6,7 @@ const PrimaryButton = ({ url, text, extern }) => {
       <a
         target="_blank"
         href={url}
-        className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors duration-300"
+        className="border-2 border-black p-2 transition-colors duration-300 hover:bg-black hover:text-white"
       >
         {text}
       </a>
@@ -15,7 +15,7 @@ const PrimaryButton = ({ url, text, extern }) => {
     return (
       <a
         href={url}
-        className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors duration-300"
+        className="border-2 border-black p-2 transition-colors duration-300 hover:bg-black hover:text-white"
       >
         {text}
       </a>
