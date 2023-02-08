@@ -5,7 +5,7 @@ const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className="">
       <div
         onClick={() => {
           setIsOpen(!isOpen);
@@ -22,8 +22,8 @@ const MobileMenu = () => {
 
       <ul
         className={`flex flex-col items-center ${
-          isOpen ? 'h-full' : 'h-0'
-        } absolute top-14 left-0 bg-black text-white transition-all duration-500 overflow-hidden w-full`}
+          isOpen ? 'h-1/3' : 'h-0'
+        } absolute top-14 left-0 w-full overflow-hidden bg-black text-white transition-all duration-500`}
       >
         <li className="mt-8 mb-4 w-8/12 border-white text-center">
           <a href="/" className="text-2xl font-semibold">
